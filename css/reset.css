@@ -1,0 +1,14 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ul, a, img {
+	list-style: none;
+	text-decoration: none;
+	vertical-align: bottom;
+}
+
+body {
+	background: #F2F0E9;
+}

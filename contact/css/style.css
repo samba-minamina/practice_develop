@@ -1,0 +1,135 @@
+.header {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.header.header--layout {
+	margin-top: 30px;
+}
+
+.navlist {
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	margin-top: -20px;
+	margin-left: -10px;
+}
+.navlist .navlist-item {
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.nav_item {
+	padding-bottom: 10px;
+	color: rgb(61, 41, 33);
+	background-image: linear-gradient(90deg, #333, #333);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-size: 0 1px;
+	transition: background-size 0.6s;
+}
+.nav_item.nav_item--red {
+	background-image: linear-gradient(90deg, rgb(230, 122, 122), rgb(230, 122, 122));
+}
+.nav_item.nav_item--orange {
+	background-image: linear-gradient(90deg, rgb(250, 165, 109), rgb(250, 165, 109));
+}
+.nav_item.nav_item--green {
+	background-image: linear-gradient(90deg, rgb(185, 228, 137), rgb(185, 228, 137));
+}
+.nav_item.nav_item--blue {
+	background-image: linear-gradient(90deg, rgb(109, 217, 250), rgb(109, 217, 250));
+}
+.nav_item.nav_item--purple {
+	background-image: linear-gradient(90deg, rgb(232, 151, 243), rgb(232, 151, 243));
+}
+.nav_item:hover {
+	background-size: 100% 1px;
+	opacity: .7;
+}
+
+.maincontent .maincontent-title {
+  display: flex;
+  justify-content: center;
+}
+.maincontent .maincontent-title_step {
+  margin-top: 20px;
+}
+.maincontent .maincontent-body {
+  margin-top: 50px;
+  text-align: center;
+}
+.maincontent.maincontent--layout {
+  margin-top: 50px;
+}
+
+.steplist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.steplist .steplist-item {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.steplist .steplist-item::after {
+  margin-left: 10px;
+  content: "▶︎";
+  color: rgb(236, 149, 109);
+}
+.steplist .steplist-item:last-child:after {
+  content: "";
+}
+.steplist .steplist-item:first-child {
+  margin-left: 0;
+}
+
+.step_item {
+  padding: 5px 10px;
+  background-color: rgb(230, 223, 229);
+  border-radius: 5px;
+}
+.step_item .step_item-title {
+  color: brown;
+  font-size: 10px;
+  font-weight: bold;
+}
+.step_item .step_item-body {
+  margin-left: 5px;
+  color: #333;
+  font-size: 13px;
+}
+
+.inputlist .inputlist-item {
+  margin-top: 10px;
+}
+.inputlist .inputlist-item:first-child {
+  margin-top: 0;
+}
+
+.input_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input_item .input_item-title {
+  color: #333;
+  font-size: 13px;
+}
+.input_item .input_item-title_red {
+  padding: 3px;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 6px;
+  background-color: brown;
+  border-radius: 3px;
+}
+.input_item .input_item-body {
+  margin-top: 10px;
+  width: 50%;
+}
+
+.input_text {
+  padding: 10px;
+  width: 100%;
+}
